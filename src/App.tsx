@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import './App.css';
 import { BeerData, Table } from './Table/Table';
 const API_URL = 'https://sheetdb.io/api/v1/sx68x6nkkj24j';
 

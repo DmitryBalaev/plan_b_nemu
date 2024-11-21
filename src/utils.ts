@@ -37,13 +37,13 @@ export const getAnimatedStyle = (num: number, count?: number) => {
     border: 1px solid silver;
     margin-right: 2px;
     border-radius: 5px;
-    min-width: 34px;
-    height: 64px;
+    min-width: 2.13rem;
+    height: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
-    margin-right: 2px;
+    font-size: 2.5rem;
+    margin-right: 0.125rem;
     background: -webkit-linear-gradient(
       -90deg,
       #00395b,

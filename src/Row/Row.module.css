@@ -1,14 +1,13 @@
 .menuRow {
-  height: 10vh;
+  height: 10dvh;
   font-family: 'Fira Code', monospace;
   display: flex;
   flex-direction: row;
-  font-size: 24px;
   margin: 0;
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  padding: 0 6px;
+  padding: 0 0.4rem;
 }
 
 .cell {
@@ -25,55 +24,47 @@
 }
 
 .cell.tap {
-  flex-grow: 1;
-  max-width: 50px;
+  max-width: 3.1rem;
   width: 100%;
 }
 
 .cell.name {
-  flex-grow: 18;
   width: 100%;
-  max-width: 760px;
+  max-width: 47.22rem;
 }
 
 .cell.type {
-  flex-grow: 6;
   width: 100%;
-  max-width: 260px;
-  font-size: 32px !important;
-  padding-left: 6px;
+  max-width: 16rem;
+  font-size: 2rem !important;
+  padding: 0 0.4rem;
 }
 
 .cell.producer {
-  flex-grow: 12;
   width: 100%;
-  max-width: 450px;
+  max-width: 27rem;
 }
 
 .cell.info {
   width: 100%;
-  flex-grow: 3;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 130px;
+  max-width: 8rem;
 }
 
 .info_box {
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .cell.volume {
-  flex-grow: 1;
   width: 100%;
-  max-width: 80px;
-  font-size: 24px;
-  padding: 3px 2px;
+  max-width: 6rem;
+  font-size: 1.5rem;
+  padding: 0.1rem 0.2rem;
   border: 1px solid silver;
   margin-right: 2px;
   border-radius: 5px;
-  min-width: 34px;
-  height: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,9 +78,8 @@
 }
 
 .cell.price {
-  max-width: 110px;
+  max-width: 6.8rem;
   width: 100%;
-  flex-grow: 1;
 }
 
 .menuRow:nth-child(odd) {
@@ -98,8 +88,4 @@
 
 .menuRow:nth-child(even) {
   background: linear-gradient(180deg, #003a5c, #002a4b);
-}
-
-.symbol {
-  min-width: 33px;
 }
