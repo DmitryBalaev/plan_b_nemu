@@ -1,0 +1,105 @@
+.menuRow {
+  height: 10vh;
+  font-family: 'Fira Code', monospace;
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 6px;
+}
+
+.cell {
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.cell:not(.tap) {
+  vertical-align: middle;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cell.tap {
+  flex-grow: 1;
+  max-width: 50px;
+  width: 100%;
+}
+
+.cell.name {
+  flex-grow: 18;
+  width: 100%;
+  max-width: 760px;
+}
+
+.cell.type {
+  flex-grow: 6;
+  width: 100%;
+  max-width: 260px;
+  font-size: 32px !important;
+  padding-left: 6px;
+}
+
+.cell.producer {
+  flex-grow: 12;
+  width: 100%;
+  max-width: 450px;
+}
+
+.cell.info {
+  width: 100%;
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 130px;
+}
+
+.info_box {
+  font-size: 18px;
+}
+
+.cell.volume {
+  flex-grow: 1;
+  width: 100%;
+  max-width: 80px;
+  font-size: 24px;
+  padding: 3px 2px;
+  border: 1px solid silver;
+  margin-right: 2px;
+  border-radius: 5px;
+  min-width: 34px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: -webkit-linear-gradient(
+    -90deg,
+    #00395b,
+    #206d9d,
+    #00224b,
+    #0c0d0e
+  );
+}
+
+.cell.price {
+  max-width: 110px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.menuRow:nth-child(odd) {
+  background: linear-gradient(180deg, #00395b, #00224b);
+}
+
+.menuRow:nth-child(even) {
+  background: linear-gradient(180deg, #003a5c, #002a4b);
+}
+
+.symbol {
+  min-width: 33px;
+}
