@@ -1,5 +1,5 @@
 .menuRow {
-  height: 10dvh;
+  height: 10vh;
   font-family: 'Fira Code', monospace;
   display: flex;
   flex-direction: row;
@@ -30,21 +30,24 @@
 
 .cell.name {
   width: 100%;
-  max-width: 35.1%;
+  max-width: 39.8%;
+  align-items: center;
+  min-height: 7vh;
 }
 
 .cell.type {
   width: 100%;
-  max-width: 16%;
-  font-size: 32px;
-  padding: 0 0.4rem;
+  max-width: 10%;
+  font-size: 26px;
+  padding: 1px;
   height: 71%;
-
+  font-size: 16px;
+  padding: 0 2px ;
 }
 
 .cell.producer {
   width: 100%;
-  max-width: 24.7%;
+  max-width: 26.5%;
 }
 
 .cell.info {
@@ -52,20 +55,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 8%;
+  max-width: 7.7%;
+  gap: 2px;
   height: 71%;
   justify-content: center;
 }
 
 .info_box {
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .cell.volume {
   width: 100%;
   height: 71%;
-  max-width: 5%;
-  font-size: 1.5rem;
+  max-width: 4.5%;
+  font-size: 16px;
   padding: 0.1rem 0.2rem;
   border: 1px solid silver;
   margin-right: 2px;
@@ -83,7 +87,7 @@
 }
 
 .cell.price {
-  max-width: 6.2%;
+  max-width: 7%;
   width: 100%;
 }
 

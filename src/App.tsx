@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { BeerData, Table } from './Table/Table';
-const API_URL = 'https://sheetdb.io/api/v1/sx68x6nkkj24j';
+const API_URL = 'https://sheetdb.io/api/v1/bxei5f8q37w0b';
 
 const fetchTapsData = async () => {
   const response = await fetch(API_URL);

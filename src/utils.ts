@@ -37,12 +37,13 @@ export const getAnimatedStyle = (num: number, count?: number) => {
     border: 1px solid silver;
     margin-right: 2px;
     border-radius: 5px;
-    min-width: 26px;
-    min-height: 8%;
+    min-width: 19px;
+    height: 7vh;
+    min-height: 7vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 32px;
+    font-size: 20px;
     background: -webkit-linear-gradient(
       -90deg,
       #00395b,
@@ -50,7 +51,7 @@ export const getAnimatedStyle = (num: number, count?: number) => {
       #00224b,
       #0c0d0e
     );
-    animation: ${flipAnimation} 0.009s ease-in-out ${num}ms;
+    animation: ${flipAnimation} 0.010s linear ${num}ms;
     animation-iteration-count: ${count ?? num};
   `;
 };
