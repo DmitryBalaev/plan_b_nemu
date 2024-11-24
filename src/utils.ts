@@ -51,7 +51,7 @@ export const getAnimatedStyle = (num: number, count?: number) => {
       #00224b,
       #0c0d0e
     );
-    animation: ${flipAnimation} 0.010s easy-in-out ${num}ms;
+    animation: ${flipAnimation} 0.010s ease-in-out ${num}ms;
     animation-iteration-count: ${count ?? num};
   `;
 };
