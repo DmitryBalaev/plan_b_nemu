@@ -24,25 +24,27 @@
 }
 
 .cell.tap {
-  max-width: 3.1rem;
+  max-width: 3%;
   width: 100%;
 }
 
 .cell.name {
   width: 100%;
-  max-width: 47.22rem;
+  max-width: 35.1%;
 }
 
 .cell.type {
   width: 100%;
-  max-width: 16rem;
-  font-size: 2rem !important;
+  max-width: 16%;
+  font-size: 32px;
   padding: 0 0.4rem;
+  height: 71%;
+
 }
 
 .cell.producer {
   width: 100%;
-  max-width: 27rem;
+  max-width: 24.7%;
 }
 
 .cell.info {
@@ -50,16 +52,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 8rem;
+  max-width: 8%;
+  height: 71%;
+  justify-content: center;
 }
 
 .info_box {
-  font-size: 1.1rem;
+  font-size: 14px;
 }
 
 .cell.volume {
   width: 100%;
-  max-width: 6rem;
+  height: 71%;
+  max-width: 5%;
   font-size: 1.5rem;
   padding: 0.1rem 0.2rem;
   border: 1px solid silver;
@@ -78,7 +83,7 @@
 }
 
 .cell.price {
-  max-width: 6.8rem;
+  max-width: 6.2%;
   width: 100%;
 }
 

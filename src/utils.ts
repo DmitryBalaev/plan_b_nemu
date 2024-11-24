@@ -33,17 +33,16 @@ export const getAnimatedStyle = (num: number, count?: number) => {
   `;
 
   return () => css`
-    padding: 3px 2px;
+    padding: 2px 2px;
     border: 1px solid silver;
     margin-right: 2px;
     border-radius: 5px;
-    min-width: 2.13rem;
-    height: 4rem;
+    min-width: 26px;
+    min-height: 8%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.5rem;
-    margin-right: 0.125rem;
+    font-size: 32px;
     background: -webkit-linear-gradient(
       -90deg,
       #00395b,
