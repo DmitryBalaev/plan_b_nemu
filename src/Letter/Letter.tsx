@@ -4,8 +4,8 @@ import { getAnimatedStyle } from '../utils';
 
 const getNum = (letter: string) => {
   let num = 0;
-  const russianAlphabet = '1234567890№абвгдеёжзийклмнопрстуфхцчшщъыьэюя';
-  const englishAlphabet = '1234567890№abcdefghijklmnopqrstuvwxyz';
+  const russianAlphabet = '1234567890№абвгдеёжзийклмнопрстуфхцчшщъыьэюя.`-_';
+  const englishAlphabet = '1234567890№abcdefghijklmnopqrstuvwxyz.`-_';
 
   if (russianAlphabet.includes(letter.toLowerCase())) {
     num = russianAlphabet.indexOf(letter.toLowerCase()) + 1;
