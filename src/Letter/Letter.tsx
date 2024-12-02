@@ -11,8 +11,8 @@ const getNum = (letter: string) => {
     num = russianAlphabet.indexOf(letter.toLowerCase()) + 1;
   }
 
-  if (englishAlphabet.includes(letter)) {
-    num = englishAlphabet.indexOf(letter) + 1;
+  if (englishAlphabet.includes(letter.toLowerCase())) {
+    num = englishAlphabet.indexOf(letter.toLowerCase()) + 1;
   }
 
   return num;
